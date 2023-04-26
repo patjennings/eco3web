@@ -19,7 +19,7 @@ Theme Name: Kernavélo 2023
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #DCDAE7;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -360,7 +360,7 @@ textarea {
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1;
   /* 1 */
-  color: #706D81;
+  color: #9ca3af;
   /* 2 */
 }
 
@@ -368,7 +368,7 @@ input::placeholder,
 textarea::placeholder {
   opacity: 1;
   /* 1 */
-  color: #706D81;
+  color: #9ca3af;
   /* 2 */
 }
 
@@ -425,21 +425,7 @@ video {
   display: none;
 }
 
-body {
-  --tw-bg-opacity: 1;
-  background-color: rgb(235 234 241 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(18 18 22 / var(--tw-text-opacity));
-}
-
-a {
-  --tw-text-opacity: 1;
-  color: rgb(43 84 133 / var(--tw-text-opacity));
-}
-
-a:hover {
-  --tw-text-opacity: 1;
-  color: rgb(54 124 207 / var(--tw-text-opacity));
+body{
 }
 
 *, ::before, ::after {
@@ -696,9 +682,9 @@ a:hover {
   font-weight: 700;
 }
 
-.text-blue-400 {
+.text-teal-600 {
   --tw-text-opacity: 1;
-  color: rgb(54 124 207 / var(--tw-text-opacity));
+  color: rgb(0 132 143 / var(--tw-text-opacity));
 }
 
 #cover--bg{
