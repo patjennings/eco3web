@@ -615,6 +615,10 @@ a:hover {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-192 {
   height: 48rem;
 }
@@ -723,5 +727,11 @@ a:hover {
 
   .laptop\:w-1\/2 {
     width: 50%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .desktop\:block {
+    display: block;
   }
 }
