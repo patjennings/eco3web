@@ -629,6 +629,10 @@ body{
   width: 100%;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
